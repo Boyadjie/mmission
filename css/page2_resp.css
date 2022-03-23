@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 800px){
+	.deco2{
+		display:none;
+	}
+	.wrap {
+		margin: 0 3%;
+	}
+	.au-dessus{
+		display:none;
+	}
+/*	#logo-mmission-nav{
+	  display:block;
+	}*/
+	.homonumericus{
+		margin-top:90px;
+	}
+	p#teaser {
+		color: white;
+		width:90%;
+		font-size: 180%;
+		font-weight: 300;
+		margin:auto;
+	}
+	div#teaser {
+		display: block;
+	}
+	div#teaser img {
+		width: 100%;
+	}
+	p#plus {
+		color: white;
+		position: relative;
+		font-size: 220%;
+		margin: 5% 20%;
+	}
+	.container img{
+		width: 100%;
+	}
+	#lecteur {
+		width: 95%;
+	}
+	div#vid img {
+		width: 45%;
+		margin: 1% 2%;
+	}
+	.hn-back {
+		font-size: 400%;
+		letter-spacing: 5px;
+		margin: 0 auto;
+	
+	}
+	.hn-front {
+		font-size: 250%;
+		margin: 2% auto 0 auto;
+
+	}
+
+}
+
+@media (max-width: 400px){
+	.cap-back {
+		font-size: 370%;
+		letter-spacing: 5px;
+
+	}
+
+	.cap-front {
+		font-size: 250%;
+		margin: 3% auto 0 auto;
+	}
+	.hn-back {
+		font-size: 200%;
+		letter-spacing: 2.5px;
+		margin: 0 auto;
+	
+	}
+	.hn-front {
+		font-size: 150%;
+		margin: 1% auto 0 auto;
+
+	}
+	p#teaser {
+		color: white;
+		width:95%;
+		font-size: 160%;
+		font-weight: 300;
+		margin:auto;
+	}
+	p#plus {
+		font-size: 190%;
+	}
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media (max-width: 1024px){
+	body:not(header,footer){
+		margin:0 15px;
+	}
+	img#logo-mmission{
+		padding-top: 40%;
+		width: 40%;
+		padding-bottom: 19%;
+	}
+	.t{
+		font-size: 150%;
+	}
+	.s{
+		font-size: 115%;
+	}
+	.clouds-container{
+		display:none;
+	}
+}

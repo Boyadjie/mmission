@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-width:1024px){
+	.laptop{
+		padding-top: 24%;
+	}
+	.fleche{
+		top: 55%;
+	}
+}
+
+@media all and (max-width:800px){
+	.fleche{
+		display: none;
+	}
+	img#logo-mmission{
+		padding-top: 120px;
+	}
+	.qui{
+		font-size: 290%;
+		padding-left: 9%;
+		width: 90%;
+	}
+	.text-pres{
+		font-size: 120%;
+		padding-left: 9%;
+		width: 90%;
+	}
+	.kisomnou{
+		width: 100%;
+	}
+	.bouton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		z-index: 2;
+	}
+	.qui {
+		padding-left: 5%;
+	}
+	.text-pres {
+		padding-left: 5%;
+	}
+	.ordi{
+		display: none;
+	}
+	.nuage-back-premier {
+		display: none;
+	}
+	.equipe-back{
+		font-size: 600%;
+	}
+	.equipe-front{
+		font-size: 290%;
+	}
+	#membre{
+		margin-top: 17%;
+	}
+	.pole {
+		width: 15%;
+		margin-top: 62%;
+	}
+	.text-poles {
+		font-size: 220%;
+	}
+	#splash{
+		width: 80%;
+		padding-top: 10%;
+	}
+	.photo-eleve{
+		padding-left: 2%;
+	}
+	p.nom-comp{
+		font-size: 80%;
+		margin-left: 3%;
+	}
+	div.titre-comp{
+		font-size: 110%;
+		width: 80%;
+		margin-left: 0%;
+	}
+	.intitule-comp{
+		width: 75%;
+		font-size: 60%;
+	}
+	.boulesav {
+		width: 30%;
+		font-size: 50%;
+		text-align: right;
+	}
+	.text-membres {
+		padding-left: 0;
+	}
+	.glide__arrow--right{
+		left: 90%;
+		width: 6%;
+	}
+	.glide__arrow--left{
+		left: 0%;
+		width: 6%;
+	}
+	.glidegraph{
+		padding-left: 1.6%;
+	}
+	
+	.glideav{
+		padding-left: 1.6%;
+	}
+	
+	.glideprog{
+		padding-left: 1.6%;
+	}
+	
+	.glidecom{
+		padding-left: 1.6%;
+	}
+}
+
+@media all and (max-width:480px){
+	.qui{
+		font-size: 290%;
+		padding-left: 7%;
+		width: 90%;
+	}
+	.text-pres{
+		font-size: 120%;
+		padding-left: 7%;
+		width: 90%;
+	}
+
+	img#logo-mmission{
+		padding-top: 80%;
+		width: 50%;
+	}
+	img#nuage1{
+		width: 50%;
+		top: 230%;
+		left: 0;
+	}
+	img#nuage2{
+		width: 60%;
+		top: 180%;
+		left: 40%;
+	}
+	img#nuage3{
+		width: 60%;
+		top: 180%;
+		left: 40%;
+	}
+	.bouton {
+		top: 100%;
+	}
+	.equipe-back{
+		font-size: 370%;
+	}
+	.equipe-front{
+		font-size: 190%;
+	}
+	#membre{
+		margin-top: 23%;
+	}
+	.container{
+		width: 100%;
+	}
+	.glidegraph{
+		padding-left: 0%;
+	}
+	
+	.glideav{
+		padding-left: 0%;
+	}
+	
+	.glideprog{
+		padding-left: 0%;
+	}
+	
+	.glidecom{
+		padding-left: 0%;
+	}
+	div#membres{
+		text-align: center;
+	}
+	.glide__arrow--right{
+		width: 10%;
+		text-align: center;
+	}
+	.glide__arrow--left{
+		width: 10%;
+		text-align: center;
+	}
+	.pole{
+		margin-top: 162%;
+	}
+	#splash{
+		width: 80%;
+		padding-top: 20%;
+	}
+	figure > figcaption{
+		width: 100%;
+	}
+	.photo-eleve{
+		display: block;
+	}
+	.titre-comp{
+		font-size: 80%;
+		width: 80%;
+		margin-left: 5%;
+	}
+	.intitule-comp{
+		width: 75%;
+		font-size: 80%;
+		margin-left: 16%;
+	}
+	.boulesav {
+		width: 35%;
+		font-size: 90%;
+		margin-right: 6%;
+	}
+	.glide__arrow--right{
+		left: 86%;
+	}
+	p.nom-comp {
+		font-size: 136%;
+	}
+}

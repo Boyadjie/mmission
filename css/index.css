@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	background-color: #2a241d;
+}
+
+body{
+	height: 100%;
+	margin: 0;
+}
+
+div#container-kisomnou{
+	display: flex;
+	position: relative;
+	padding-top: 5%;
+
+	font-weight: 300;
+	font-style: normal;
+}
+
+.kisomnou{
+	width: 49%;
+	left: 0%;
+}
+
+.qui{
+	font-weight: 300;
+	color: #fee6d1;
+	padding-left: 12%;
+	font-size: 390%;
+	
+}
+
+.text-pres{
+	padding-left: 12%;
+	color: white;
+	width: 80%;
+	font-size: 150%;
+	line-height: 130%;
+}
+
+.ordi{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+
+.laptop{
+	float: right;
+	width:45%;
+	padding-top: 12%;
+}
+
+.nuage-back-premier{
+	position: absolute;
+	top:55%;
+	left: 55%;
+	width: 40%;
+	z-index: 7;
+	opacity: 75%;
+}
+
+.bouton{
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: #ffbe00;
+	border-radius: 30px;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 150%;
+	position: absolute;
+	left: 15%;
+	top: 105%;
+	z-index: 12;
+	box-shadow: 8px 8px 12px black;
+}
+
+.bouton:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+
+.interieur-bouton{
+	padding-left: 23%;
+	line-height: 6px;
+}
+
+div#membres{
+	padding-top: 7%;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.equipe{
+	position: relative;
+}
+
+.equipe-back{
+	font-weight: 800;
+	font-style: normal;
+	color: #4e3c29;
+	font-size: 810%;
+	letter-spacing: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	width: 100%;
+	text-align: center;
+}
+
+.equipe-front{
+	font-weight: 600;
+	font-style: normal;
+	color: #fbb816;
+	position: absolute;
+	font-size: 400%;
+	width: 100%;
+	text-align: center;
+}
+
+.logo-poles{
+	width: 100%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center;
+}
+
+.pole{
+	width: 7%;
+	display: block;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 100%;
+	margin-top: 54%;
+}
+
+.pole:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 0.2s;
+}
+
+.nb{
+	display: block;
+}
+
+#graph{
+	display: none;
+}
+
+.text-poles{
+	width: 100%;
+	text-align: center;
+	color: #fee6d1;
+	font-weight: 300;
+	font-size: 250%;
+	margin-top: 0;
+	margin-bottom: 0;
+}

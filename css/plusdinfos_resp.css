@@ -1,0 +1,63 @@
+
+@media (max-width: 800px){
+	.plusdinfos{
+		margin-top:90px;
+	}
+	.pi-back {
+		font-size: 400%;
+		letter-spacing: 5px;
+		margin: 0 auto;
+	
+	}
+	.pi-front {
+		font-size: 250%;
+		margin: 2% auto 0 auto;
+
+    }
+    .wrap h2 {
+        font-size: 320%;
+    }
+    .wrap h3 {
+        font-size: 240%;
+    }
+    .wrap p {
+        font-size: 115%;
+        line-height: 125%;
+    }
+    .agent {
+        width: 40%;
+        margin-left: 61%;
+    }
+    .logo_plusdinfos{
+        width: 20%;
+    }
+    .logo_chartegraphique{
+        width: 40%;
+    }
+    .logo_mmission_plusdinfos{
+        width: 40%;
+    }
+    .nuage_plusdinfos{
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px){
+	.pi-back {
+		font-size: 200%;
+		letter-spacing: 2.5px;
+		margin: 0 auto;
+	
+	}
+	.pi-front {
+		font-size: 150%;
+		margin: 1% auto 0 auto;
+    }
+    .agent {
+        width: 45%;
+        margin-left: 50%;
+    }
+    .wrap h3 {
+        font-size: 200%;
+    }
+}

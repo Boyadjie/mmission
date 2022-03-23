@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media all and (max-width:1024px){
+	.nav-container > li{
+		font-size: 170%;
+	}
+}
+
+@media all and (max-width:800px){
+	nav{
+		display: none;
+	}
+	.parallax-container{
+		display: none;
+	}
+	.barre-nav{
+		display: block;
+	}
+	.menu{
+		display: block;
+	}
+	.nuage-mini{
+		display: block;
+	}
+	.anim {
+		width: 13%;
+	}
+}
+
+@media all and (max-width:480px){
+	.mini-img-fond{
+		display: block;
+		width: 100%;
+		right: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.img-fond{
+		display: none;
+	}
+	#logo-mmission-nav{
+		padding-top: 4%;
+		padding-left: 5%;
+		margin: 0;
+	}
+	.anim {
+		width: 20%;
+	}
+	.barres {
+		left: 88%;
+	}
+	#logo-mmission-loader{
+		width: 50%;
+	}
+	.loader > p {
+		font-size: 210%;
+	}
+}

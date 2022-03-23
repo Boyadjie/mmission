@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	font-family: futura-pt,sans-serif;
+}
+
+.img-fond{
+	width: 100%;
+}
+ 
+.au-dessus{
+	position: absolute;
+	color : white ;
+	top: 0%;
+	width: 100%;
+}
+
+.nav{
+	width: 100%;
+	top: 0%;
+	text-align: center;
+	
+}
+
+div#contenu-nav{
+	display: flex;
+	justify-content: center;
+	border-bottom: solid #FFFFFF 1px;
+	position: fixed;
+	z-index: 15;
+	width: 100%;
+}
+
+
+.texte-nav{
+	font-size: 190%;
+}
+
+.nav{
+	display: inline-block;
+	height: 12%;
+	margin-left: 125px;
+	margin-right: 125px;
+}
+
+header li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+	font-style: normal;
+	padding: 0 20px;
+	text-align: center;
+}
+
+header li p {
+	height: 20px;
+}
+
+img#logo-mmission{
+	width: 35%;
+	padding-top: 15%;
+	left: 33%;
+	z-index: 1;
+	position: inherit;
+}
+
+.parallax-container{
+	position: relative;
+	width: 90%;
+	height: 100%;
+	top:0%;
+	max-width: 100%;
+	max-width: 1450px;
+	z-index: 6;
+}
+
+.premier{
+	padding-top:17%;
+	position: absolute;
+	left: 80%;
+	z-index: 4;
+	width: 40%;
+}
+
+.deuxieme{
+	z-index: 4;
+	padding-top: 37%;
+}
+
+.troisieme{
+	top : 8%;
+	z-index: 4;
+}
+
+
+.foo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.rectangle {
+  height: 100px;
+  width: 30px;
+  background-color: #555;
+}
+
+.contact{
+	color: white;
+	text-decoration: none;
+}
+
+a.contact::visited{
+	text-decoration: none;
+}
+
+.fleche{
+	position: absolute;
+	left: 48%;
+	font-size: 400%;
+	top: 90%;
+}
+
+.fa-angle-double-down {
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-name: opac;
+  animation-iteration-count: infinite;
+  size: 20px;
+  color: #fee6d1;
+}
+
+@keyframes opac {
+  from {
+    color: #fee6d1;
+  }
+
+  to {
+    color: #2a241d;
+  }
+}
+
+@media screen and (max-width: 1600px)
+{
+   .premier{
+	padding-top:12%;
+	left: 67%;
+	}
+}

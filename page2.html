@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title> MMI'ssion - Réalisations </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Mathilde Dutrieux et Gabriel Maia Da Costa"/>
+<link rel="icon" type="image/png" href="images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/header2.css">
+<link rel="stylesheet" type="text/css" href="css/page2.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/glide.core.min2.css">
+<link rel="stylesheet" type="text/css" href="css/glide.theme.min2.css">
+<link rel="stylesheet" type="text/css" href="css/header2_resp.css">
+<link rel="stylesheet" type="text/css" href="css/page2_resp.css">
+<link rel="stylesheet" type="text/css" href="css/footer_resp.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/vft1ngw.css"> <!-- polices Futura -->
+<script type="text/javascript">
+
+function show(indice1, indice2, indice3, indice4)
+{
+	if (document.getElementById(indice1).style.display=="none")		// Si la zone indiqué par indice est est invisible
+		document.getElementById(indice1).style.display="block";		// On l'affiche
+		document.getElementById(indice2).style.display="none";
+		pause(indice2);
+		document.getElementById(indice3).style.display="none";
+		pause(indice3);
+		document.getElementById(indice4).style.display="none";
+		pause(indice4);
+}
+
+function pause(indice){
+const video = document.getElementById(indice);
+		video.pause();
+        video.currentTime = 0;
+		}
+
+</script>
+</head>
+<body>
+	<div class="loader">
+		<p>Chargement de la page</p>
+		<div class="anim">
+			<div class="lds-facebook"><div></div><div></div><div></div></div>
+		</div>
+		<img id="logo-mmission-loader" src="images/MMI_ssion_aze.png" alt="logo mmission">
+	</div>
+	<header id="header">
+		<div class="barre-nav">
+			<a href="page2.html#header"><img id="logo-mmission-nav" src="images/MMI_ssion_aze.png" alt="logo mmission"></a>
+			<div class="barres">
+				<div class="hamburger"></div>
+			</div>
+		</div>
+		<div class="menu">
+			<ul>
+			  <li><a href="index.html" class="textmenu js-scrollTo"><p class="textmenu">Accueil</p></a></li>
+			  <li><a><p class="textmenu souligne">Réalisations</p></a></li>
+			  <li><a href="page2.html#footer"><p class="textmenu js-scrollTo">Contacts</p></a></li>
+			</ul>
+		</div>
+		<nav>
+			<a href="page2.html#header" class="js-scrollTo"><img id="logo-nav-blanc" class="js-scrollTo" src="images/MMI_ssion_Bsidebar.png" alt="Logo MMI'ssion"></a>
+			<ul class="nav-container">
+				<li><a class="text-nav js-scrollTo left" href="index.html">Accueil</a></li>
+				<li><a class="text-nav actuel" href="#header">Réalisations</a></li>
+				<li><a class="text-nav left js-scrollTo fin-page" href="footer">Contacts</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="homonumericus">
+		<h1 class="hn-front">HOMONUMERICUS</h1>
+		<h1 class="hn-back">HOMONUMERICUS</h1>
+	</div>
+
+	<div class="wrap">
+		<div id="teaser">
+			<div id="vid-teaser">
+				<img id="cadre-teaser" src="images/cadre/teaser.png" alt="Contour de la vidéo du teaser">
+				<video id="teaser-vid" controls="controls">
+					<source src="video/teaser.mp4" type="video/mp4"/>
+				</video>
+			</div>
+			<p id="teaser">Dans le cadre de l’exposition homonumericus, nous avons dû réaliser un teaser pour cette dernière.</p>
+		</div>
+	
+			<a href="oeuvres.html"><p id="plus">Nos oeuvres</p></a>
+		<div id="slider">
+			<div class="container">
+				<div class="glide">
+				  <div class="glide__track" data-glide-el="track">
+				    <ul class="glide__slides">
+				      <li class="glide__slide"><img src="images/affiches/affiche1.png" alt="Première affiche">
+				      	<figcaption>
+				      		<p>Cette affiche à été réalisée par <span class="yellow">Loriane KAH, Milan COMAJUAN, Arthur FERROD, Titouan HAGE.</span></p>
+				      	</figcaption>
+				      </li>
+				      <li class="glide__slide"><img src="images/affiches/affiche2.png" alt="Deuxième affiche">
+				      	<figcaption>
+				      		<p>Cette affiche à été réalisée par <span class="yellow">Konogan BERGER, Quentin GRILLET, Anais BACHELIER, Robin MEUNIER-JACQUIN.</span></p>
+				      	</figcaption>
+				      </li>
+				      <li class="glide__slide"><img src="images/affiches/affiche3.png" alt="Troisième affiche">
+				      	<figcaption>
+				      		<p>Cette affiche à été réalisée par <span class="yellow">Gabriel DA COSTA, Emeric BOYADJIAN, Rémi HAY--RIMBAULT, Mathis EXERTIER.</span></p>
+				      	</figcaption>
+				      </li>
+				      <li class="glide__slide"><img src="images/affiches/affiche4.png" alt="Quatrième affiche">
+				      	<figcaption>
+				      		<p>Cette affiche à été réalisée par <span class="yellow">Julie VINSON, Emma RUSCA, Mathilde DUTRIEUX.</span></p>
+				      	</figcaption>
+				      </li>
+				    </ul>
+				  </div>
+				  <div class="glide__arrows" data-glide-el="controls">
+				    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
+				    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
+				  </div>
+				  <div class="glide__bullets" data-glide-el="controls[nav]">
+	    				<button class="glide__bullet" data-glide-dir="=0"></button>
+	    				<button class="glide__bullet" data-glide-dir="=1"></button>
+	    				<button class="glide__bullet" data-glide-dir="=2"></button>
+						<button class="glide__bullet" data-glide-dir="=3"></button>
+	  			  </div>
+				</div>
+			</div>
+		</div>
+	
+	<img class="deco2" src="images/Nuage_Background/nuage_bg1.png" alt="Déco nuage de fond">
+		<div id="cap">
+			<div id="cap_title">
+				<h1 class="cap-front">CAPSULES</h1>
+				<h1 class="cap-back">CAPSULES</h1>
+			</div>
+			<div id="lecteur">
+				<img id="main" src="images/cadre/video.svg" alt="Contour de la vidéo">
+				<video id="grande4" controls="controls">
+					<source src="video/capsulegr4.mp4" type="video/mp4"/>
+				</video>
+				<video id="grande3" controls="controls">
+					<source src="video/capsulegr3.mp4" type="video/mp4"/>
+				</video>
+				<video id="grande2" controls="controls">
+					<source src="video/capsulegr2.mp4" type="video/mp4"/>
+				</video>
+				<video id="grande1" controls="controls">
+					<source src="video/capsulegr1.mp4" type="video/mp4"/>
+				</video>
+				<hr class="barre">
+			</div>
+	</div>
+		<div id="vid">
+			<a href="javascript:;" onclick="javascript:show('grande1','grande2','grande3','grande4')"><img class="minia" id="pre" src="images/miniatures/groupe1.png" alt="Première miniature"></a>
+			<a href="javascript:;" onclick="javascript:show('grande2','grande1','grande3','grande4')"><img class="minia" id="sec" src="images/miniatures/groupe2.png" alt="Deuxième miniature"></a>
+			<a href="javascript:;" onclick="javascript:show('grande3','grande2','grande1','grande4')"><img class="minia" id="ter" src="images/miniatures/groupe3.png" alt="Troisième miniature"></a>
+			<a href="javascript:;" onclick="javascript:show('grande4','grande2','grande3','grande1')"><img class="minia" id="quar" src="images/miniatures/groupe4.png" alt="Quatrième miniature"></a>
+		</div>
+	  </div>
+	  
+</body>
+<footer id="footer">
+	<div class="wrapf">
+		<div class="gauche-footer">
+			<a href="https://www.google.fr/maps/place/IUT+de+Chamb%C3%A9ry/@45.6444838,5.8676234,15.18z/data=!4m5!3m4!1s0x478b09cbb2276115:0x3d15d003b27c5cce!8m2!3d45.6424655!4d5.8710927" target="_blank" class="lien-pos"><i class="fas fa-map-marked-alt Fpico" id="position"></i></a>
+			<div class="texte-pos">
+				<p class="iut">IUT de Chambéry<br/>
+				73370 Le Bourget-du-Lac</p>
+			</div>
+			<div class="trait-gauche"></div>
+		</div>
+		<div class="milieu-footer">
+			<a href="mailto:mmissiontp22@gmail.com" target="_blank" class="logo-appli"><i class="far fa-envelope Fpico" id="insta"></i></a>
+			<a href="https://www.instagram.com/agence_mmission/" target="_blank" ><i class="fab fa-instagram Fpico" id="mail"></i></a>
+		</div>
+		<div class="droite-footer">
+			<a href="https://mmi.univ-savoie.fr/site/" class="mmi-logo" target="_blank"><img class="Fpico" id="mmi" src="images/logoMMI.png" alt="logo MMI"></a>
+			<a href="http://www.iut-chy.univ-savoie.fr/index.php" class="mmi-logo" target="_blank"><img class="Fpico" id="iut" src="images/logo_IUT.png" alt="logo IUT"></a>
+		</div>
+		<div class="fond-footer"><p class="copyright">©Copyright - MMI Chambéry - <a href="mentionlegales.html" id="mention" target="_blank">Mentions légales</a></p></div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/page2.js"></script>
+<script src="js/menu.js"></script>
+<script type="text/javascript" src="js/parallax.min.js"></script> <!-- Pour les nuages -->
+<script src="js/smoothScroll.js"></script> <!-- Pour l'auto-scroll -->
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+	const config = {
+		type:'carousel',
+			perView: 3,
+		focusAt: 'center',
+		draggable : false,
+		  breakpoints: {
+    1024: {
+      perView: 2,
+    },
+    600: {
+      perView: 1,
+    }
+  }
+	};
+	new Glide('.glide', config).mount()
+
+	window.addEventListener("load", function() {
+			const loader = document.querySelector(".loader");
+			const html = document.querySelector("html");
+			loader.className += " hidden";
+			html.className += " hidden";
+		})
+</script>
+<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+</html>

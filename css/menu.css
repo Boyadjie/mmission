@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+.menu {
+    position: fixed;
+    background-color: #6A583D;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+	line-height: 40%;
+	font-size: 80%;
+	z-index: 12;
+    top: -100%;
+    display: none;
+}
+
+.barres {
+    position: absolute;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+	z-index: 20;
+	top:50%;
+}
+.hamburger:before{
+	background-color: #f8b00d;
+}
+
+.hamburger {
+    width: 30px;
+    height: 2px;
+    background-color: #f8b00d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+
+}
+
+.hamburger::before,
+.hamburger::after
+{
+    content: '';
+    position: absolute;
+    transition: 0.5s;
+	background-color: #f8b00d;
+	width: 30px;
+    height: 2px;
+    left: 10px;
+}
+
+.barres.active .hamburger {
+    background-color: #6A583D;
+}
+
+.hamburger::before {
+    top: -10px;
+	background-color: #f8b00d;
+}
+
+.hamburger::after {
+    top: 10px;
+	background-color: #f8b00d;
+}
+
+/* MENU */
+
+
+.menu > ul {
+	position: absolute;
+    transform: translate(-50%, -50%);
+    list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    left: 50%;
+    padding:0;
+	top: 40%;
+    font-family: 'futura lt bt';
+}
+
+.menu > ul li {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 300%;
+}
+.menu > a {
+    text-decoration: none;
+    color: black;
+	font-weight: 100;
+	text-align: center;
+	font-size: 280%;
+}
+
+
+/* Animation Barres */
+
+
+.barres.active .hamburger::before {
+    top: 0;
+    transform: rotate(135deg);
+	background-color: #f8b00d;
+}
+
+.barres.active .hamburger::after {
+    top: 0;
+    transform: rotate(405deg);
+	background-color: #f8b00d;
+}
+
+p .menu:hover {
+	color: #f8b00d;
+}
+
+.textmenu{
+	font-weight: 300;
+}
+
+.textmenu:hover
+{
+    color : #f8b00d;
+}
+
+.menu > ul:nth-child(1) > li > a  {
+    color: white;
+    text-decoration: none;
+}
+
+p.souligne {
+    text-decoration: underline;
+}
